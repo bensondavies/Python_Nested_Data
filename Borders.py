@@ -1,4 +1,4 @@
-# Practice: In this practice problem the objective is to print the names of the languages for each of the countries.
+# Practice: In this practice problem the objective is to print the names of the borders for each of the countries.
 
 # Step 1:
 import requests
