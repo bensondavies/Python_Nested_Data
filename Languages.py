@@ -50,4 +50,4 @@ print(storage[0]['languages'][0]['iso639_1'])
  for item in range(len(storage)):
      lng = storage[item]['languages']
      for value in range(len(lng)):
-          print(lng[value]['iso639_1'])
+          print(lng[value]['name'])
