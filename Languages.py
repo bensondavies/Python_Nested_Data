@@ -1,3 +1,5 @@
+# Practice: In this practice problem the objective is to print the names of the languages for each of the countries.
+
 # Step 1:
 import requests
 
@@ -15,7 +17,7 @@ storage = response.json()
 for item in range(len(storage)):
      lng = storage[item]['languages']
      for value in range(len(lng)):
-          print(lng[value]['iso639_1'])
+          print(lng[value]['name'])
 
 # Workflow
 
@@ -44,7 +46,7 @@ print(storage[0]['currencies'][0])
 print(type(storage[0]['languages'][0]))
 
 # Step 13:
-print(storage[0]['languages'][0]['iso639_1'])
+print(storage[0]['languages'][0]['name'])
 
 # Step 14:
  for item in range(len(storage)):
