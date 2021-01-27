@@ -15,9 +15,9 @@ storage = response.json()
 # Solution:
 
 for item in range(len(storage)):
-     lng = storage[item]['languages']
-     for value in range(len(lng)):
-          print(lng[value]['name'])
+     border = storage[item]['borders']
+     for item in border:
+          print(item)
 
 # Workflow
 
@@ -34,22 +34,16 @@ print(storage[0])
 print(type(storage[0]))
 
 # Step 9:
-print(storage[0]['languages'])
+print(storage[0]['borders'])
 
 # Step 10:
-print(type(storage[0]['languages']))
+print(type(storage[0]['borders']))
 
 # Step 11:
-print(storage[0]['languages'][0])
+print(storage[0]['borders'][0])
 
 # Step 12:
-print(type(storage[0]['languages'][0]))
-
-# Step 13:
-print(storage[0]['languages'][0]['name'])
-
-# Step 14:
  for item in range(len(storage)):
-     lng = storage[item]['languages']
-     for value in range(len(lng)):
-          print(lng[value]['name'])
+     border = storage[item]['borders']
+     for item in border:
+          print(item)
