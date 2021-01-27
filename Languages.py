@@ -13,7 +13,9 @@ storage = response.json()
 # Solution:
 
 for item in range(len(storage)):
-     print(storage[item]['currencies'][0]['code'])
+     lng = storage[item]['languages']
+     for value in range(len(lng)):
+          print(lng[value]['iso639_1'])
 
 # Workflow
 
@@ -30,20 +32,22 @@ print(storage[0])
 print(type(storage[0]))
 
 # Step 9:
-print(storage[0]['currencies'])
+print(storage[0]['languages'])
 
 # Step 10:
-print(type(storage[0]['currencies']))
+print(type(storage[0]['languages']))
 
 # Step 11:
 print(storage[0]['currencies'][0])
 
 # Step 12:
-print(type(storage[0]['currencies'][0]))
+print(type(storage[0]['languages'][0]))
 
 # Step 13:
-print(storage[0]['currencies'][0]['code'])
+print(storage[0]['languages'][0]['iso639_1'])
 
 # Step 14:
  for item in range(len(storage)):
-     print(storage[item]['currencies'][0]['code'])
+     lng = storage[item]['languages']
+     for value in range(len(lng)):
+          print(lng[value]['iso639_1'])
