@@ -40,7 +40,7 @@ print(storage[0]['languages'])
 print(type(storage[0]['languages']))
 
 # Step 11:
-print(storage[0]['currencies'][0])
+print(storage[0]['languages'][0])
 
 # Step 12:
 print(type(storage[0]['languages'][0]))
