@@ -12,6 +12,6 @@
 You will also have access to more than 50 nexsted data practice problems with templates and REST API's. 
 <br>
 
-If you are intersted in the course you can [subscribe](https://medium.com/subscribe/@premierservices_python) to me on Medium.com or email at training@borisj.com. You will recieve 20% discount on the cost of the course when it's released in 2022.
+If you are intersted in the course you can [subscribe](https://medium.com/subscribe/@premierservices_python) to me on Medium.com or email at training@borisj.com.
 
 
