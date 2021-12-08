@@ -1,4 +1,4 @@
-# Extract Nested Data: Course Coming Soon!
+# New Course Coming: How to Extract Nested Data
 
 ## What will you learn is this course?
 <li> How to extract nested data using the Xavier Map </li>
